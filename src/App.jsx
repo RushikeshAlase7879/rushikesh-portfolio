@@ -4,6 +4,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import ProjectCard from "./components/ProjectCard";
+import './index.css'; // Ensure this is imported to apply styles
 
 const App = () => {
   return (
