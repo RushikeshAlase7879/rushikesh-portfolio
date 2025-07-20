@@ -68,20 +68,6 @@ const Contact = () => {
           ✅ Your message has been sent. I'll get back to you soon!
         </p>
       )}
-
-      {/* ✅ QR Code Section */}
-      <div className="mt-10">
-        <h4 className="text-xl font-semibold mb-2">My Resume</h4>
-        <p className="text-gray-500 mb-4">Scan the QR code below to access and download my resume</p>
-        <section className="text-center mt-12">
-          <h3 className="text-xl font-semibold mb-4">My Resume</h3>
-          <img
-            src="/resume-qr.png"
-            alt="Resume QR Code"
-            className="mx-auto w-40 h-40 sm:w-48 sm:h-48 border border-gray-300 rounded-xl shadow-md mb-4"
-          />
-        </section>
-      </div>
     </section>
   );
 };

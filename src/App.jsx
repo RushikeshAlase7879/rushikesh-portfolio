@@ -1,10 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Contact from "./components/Contact";         // ✅ only once
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import ProjectCard from "./components/ProjectCard";
-
 
 const App = () => {
   return (
