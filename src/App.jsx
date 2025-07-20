@@ -1,9 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Contact from "./Components/Contact";
-import Footer from "./Components/Footer";
-import ScrollToTop from "./Components/ScrollToTop";
-import ProjectCard from "./Components/ProjectCard";
+import Contact from "./components/Contact";         // ✅ only once
+import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
+import ProjectCard from "./components/ProjectCard";
+
 
 const App = () => {
   return (
@@ -35,7 +36,7 @@ const App = () => {
           <h2 className="text-4xl font-bold mb-4 text-green-700">About Me</h2>
           <p className="text-xl font-semibold mb-2 text-gray-800">Hi, I'm Rushikesh</p>
           <p className="text-gray-700 max-w-2xl mx-auto leading-relaxed">
-            I am a passionate data analyst skilled in <span className="font-medium">Python, SQL, Power BI,</span> and <span className="font-medium">Qlik Sense</span>.<br />
+            I am a passionate data analyst skilled in <span className="font-medium">Python, SQL, Power BI</span>, and <span className="font-medium">Qlik Sense</span>.<br />
             Currently pursuing <span className="font-medium">B Tech in AI & ML</span> from <span className="font-medium">D.Y. Patil, Kolhapur</span> with <span className="font-medium">8.8 CGPA</span>.
           </p>
         </motion.section>
@@ -124,7 +125,7 @@ const App = () => {
           <img
             src="/resume-qr.png"
             alt="Resume QR Code"
-            className="mx-auto w-48 h-48 border border-gray-300 rounded-xl shadow-md mb-4"
+            className="mx-auto w-40 h-40 sm:w-48 sm:h-48 border border-gray-300 rounded-xl shadow-md mb-4"
           />
 
           <a
@@ -140,7 +141,6 @@ const App = () => {
         {/* Scroll to Top & Footer */}
         <ScrollToTop />
         <Footer />
-
       </div>
     </div>
   );
