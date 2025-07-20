@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import ScrollToTop from "./components/ScrollToTop";
-import ProjectCard from "./components/ProjectCard";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
+import ScrollToTop from "./Components/ScrollToTop";
+import ProjectCard from "./Components/ProjectCard";
 
 const App = () => {
   return (
